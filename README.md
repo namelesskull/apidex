@@ -1,5 +1,8 @@
 # Apidex
 
+![Apidex Screenshot](https://txyetwyalbsyterutgqv.supabase.co/storage/v1/object/public/screenshot/Screenshot%20from%202023-10-22%2017-53-49.png)
+
+
 Apidex is an application for fetching data from APIs, serving as an alternative to tools like Postman. It allows you to make HTTP requests, inspect and manage headers, and send request bodies.
 
 ## Installation
