@@ -17,20 +17,16 @@ Visit the live application: [Apidex App](https://apidex.vercel.app)
 To set up Apidex locally on your machine, follow these steps:
 
 1. Clone this repository:
-   git clone https://github.com/your-username/apidex.git
+   git clone https://github.com/freakh00da/apidex.git
 
 2. Change to the project directory:
    cd apidex
 
 3. Install the project dependencies using [Yarn](https://classic.yarnpkg.com/en/docs/install/):
-   ```sh
    yarn install
-   ```
 
 4. Start the application:
-   ```sh
    yarn dev
-   ```
 
 5. Access the application in your web browser at `http://localhost:3000`.
 
@@ -68,4 +64,3 @@ Contributions are welcome! Feel free to open issues or submit pull requests to h
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
