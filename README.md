@@ -1,3 +1,4 @@
+```markdown
 # Apidex
 
 Apidex is an application for fetching data from APIs, serving as an alternative to Postman. It simplifies the process of making API requests, managing headers, and visualizing responses. With Apidex, you can efficiently test and interact with various APIs and endpoints.
@@ -17,16 +18,24 @@ Visit the live application: [Apidex App](https://apidex.vercel.app)
 To set up Apidex locally on your machine, follow these steps:
 
 1. Clone this repository:
+   ```
    git clone https://github.com/freakh00da/apidex.git
+   ```
 
 2. Change to the project directory:
+   ```
    cd apidex
+   ```
 
 3. Install the project dependencies using [Yarn](https://classic.yarnpkg.com/en/docs/install/):
+   ```
    yarn install
+   ```
 
 4. Start the application:
+   ```
    yarn dev
+   ```
 
 5. Access the application in your web browser at `http://localhost:3000`.
 
@@ -64,3 +73,6 @@ Contributions are welcome! Feel free to open issues or submit pull requests to h
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+```
+
+Anda dapat menyalin semua konten di atas dan mem-paste-nya langsung ke file README di repositori GitHub Anda tanpa perubahan tambahan.
