@@ -44,9 +44,7 @@ You can access the live application at [Apidex - Live Demo](https://apidex.verce
 
 - **Request Headers:** You can manage and inspect the request headers, including common headers like "Authorization," "Content-Type," and more.
 
-- **Request Body:** You can send request bodies in various formats, including plain text and JSON.
-
-- **Auto-complete Headers:** Apidex provides auto-complete suggestions for common headers used in API requests.
+- **Request Body:** You can send request bodies in various formats, including key-value model and JSON.
 
 ## Usage
 
