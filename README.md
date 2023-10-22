@@ -1,68 +1,71 @@
-# apidex
+# Apidex
 
-## Build Setup
+Apidex is an application for fetching data from APIs, serving as an alternative to Postman. It simplifies the process of making API requests, managing headers, and visualizing responses. With Apidex, you can efficiently test and interact with various APIs and endpoints.
 
-```bash
-# install dependencies
-$ yarn install
+Visit the live application: [Apidex App](https://apidex.vercel.app)
 
-# serve with hot reload at localhost:3000
-$ yarn dev
+## Table of Contents
 
-# build for production and launch server
-$ yarn build
-$ yarn start
+- [Installation](#installation)
+- [Features](#features)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-# generate static project
-$ yarn generate
+## Installation
+
+To set up Apidex locally on your machine, follow these steps:
+
+1. Clone this repository:
+   git clone https://github.com/your-username/apidex.git
+
+2. Change to the project directory:
+   cd apidex
+
+3. Install the project dependencies using [Yarn](https://classic.yarnpkg.com/en/docs/install/):
+   ```sh
+   yarn install
+   ```
+
+4. Start the application:
+   ```sh
+   yarn dev
+   ```
+
+5. Access the application in your web browser at `http://localhost:3000`.
+
+## Features
+
+Apidex provides the following features:
+
+- Create and manage HTTP requests.
+- Set custom headers for each request.
+- Supports various HTTP methods (GET, POST, PUT, DELETE, etc.).
+- Visualize API responses and error handling.
+- Easily test APIs and endpoints.
+- Suitable for development and testing purposes.
+
+## Usage
+
+1. Access the live application at [Apidex App](https://apidex.vercel.app).
+
+2. Create a new request by clicking the "New Request" button.
+
+3. Configure the request's details, including the request method, URL, and headers.
+
+4. Optionally, set request body parameters or content.
+
+5. Click the "Send Request" button to make the API request.
+
+6. View the API response in the application and inspect the data returned.
+
+7. You can manage and organize your requests for easy access and testing.
+
+## Contributing
+
+Contributions are welcome! Feel free to open issues or submit pull requests to help improve Apidex. Please follow our [Contributing Guidelines](CONTRIBUTING.md).
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 ```
-
-For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
-
-## Special Directories
-
-You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
-
-### `assets`
-
-The assets directory contains your uncompiled assets such as Stylus or Sass files, images, or fonts.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/assets).
-
-### `components`
-
-The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/components).
-
-### `layouts`
-
-Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
-
-### `pages`
-
-This directory contains your application views and routes. Nuxt will read all the `*.vue` files inside this directory and setup Vue Router automatically.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/get-started/routing).
-
-### `plugins`
-
-The plugins directory contains JavaScript plugins that you want to run before instantiating the root Vue.js Application. This is the place to add Vue plugins and to inject functions or constants. Every time you need to use `Vue.use()`, you should create a file in `plugins/` and add its path to plugins in `nuxt.config.js`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/plugins).
-
-### `static`
-
-This directory contains your static files. Each file inside this directory is mapped to `/`.
-
-Example: `/static/robots.txt` is mapped as `/robots.txt`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/static).
-
-### `store`
-
-This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
