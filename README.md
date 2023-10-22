@@ -1,78 +1,69 @@
-```markdown
 # Apidex
 
-Apidex is an application for fetching data from APIs, serving as an alternative to Postman. It simplifies the process of making API requests, managing headers, and visualizing responses. With Apidex, you can efficiently test and interact with various APIs and endpoints.
-
-Visit the live application: [Apidex App](https://apidex.vercel.app)
-
-## Table of Contents
-
-- [Installation](#installation)
-- [Features](#features)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+Apidex is an application for fetching data from APIs, serving as an alternative to tools like Postman. It allows you to make HTTP requests, inspect and manage headers, and send request bodies.
 
 ## Installation
 
-To set up Apidex locally on your machine, follow these steps:
+To run Apidex, you need to have Node.js and Yarn installed on your machine. If you haven't installed Yarn, you can do so by following the instructions on the [Yarn website](https://classic.yarnpkg.com/en/docs/install/).
 
-1. Clone this repository:
+Once Yarn is installed, you can follow these steps to run Apidex:
+
+1. Clone this repository to your local machine:
+
    ```
    git clone https://github.com/freakh00da/apidex.git
    ```
 
-2. Change to the project directory:
+2. Navigate to the project directory:
+
    ```
    cd apidex
    ```
 
-3. Install the project dependencies using [Yarn](https://classic.yarnpkg.com/en/docs/install/):
+3. Install the required dependencies:
+
    ```
    yarn install
    ```
 
-4. Start the application:
+4. Start the development server:
+
    ```
    yarn dev
    ```
 
-5. Access the application in your web browser at `http://localhost:3000`.
+5. Open your browser and go to [http://localhost:3000](http://localhost:3000).
+
+## Live Application
+
+You can access the live application at [Apidex - Live Demo](https://apidex.vercel.app).
 
 ## Features
 
-Apidex provides the following features:
+- **HTTP Requests:** Apidex allows you to make GET, POST, PUT, DELETE, and other HTTP requests.
 
-- Create and manage HTTP requests.
-- Set custom headers for each request.
-- Supports various HTTP methods (GET, POST, PUT, DELETE, etc.).
-- Visualize API responses and error handling.
-- Easily test APIs and endpoints.
-- Suitable for development and testing purposes.
+- **Request Headers:** You can manage and inspect the request headers, including common headers like "Authorization," "Content-Type," and more.
+
+- **Request Body:** You can send request bodies in various formats, including plain text and JSON.
+
+- **Auto-complete Headers:** Apidex provides auto-complete suggestions for common headers used in API requests.
 
 ## Usage
 
-1. Access the live application at [Apidex App](https://apidex.vercel.app).
+1. Launch Apidex using the installation instructions mentioned above.
 
-2. Create a new request by clicking the "New Request" button.
+2. Use the application to send API requests by specifying the request method, URL, headers, and body.
 
-3. Configure the request's details, including the request method, URL, and headers.
+3. View the response in a user-friendly format.
 
-4. Optionally, set request body parameters or content.
+4. Inspect response headers and data to ensure your API requests are successful.
 
-5. Click the "Send Request" button to make the API request.
+5. Enjoy a simple and convenient way to interact with APIs.
 
-6. View the API response in the application and inspect the data returned.
+## Feedback and Contributions
 
-7. You can manage and organize your requests for easy access and testing.
+If you have any feedback, feature requests, or would like to contribute to Apidex, feel free to [open an issue](https://github.com/freakh00da/apidex/issues) on GitHub.
 
-## Contributing
+We welcome any contributions to make this tool even more useful for developers working with APIs.
 
-Contributions are welcome! Feel free to open issues or submit pull requests to help improve Apidex. Please follow our [Contributing Guidelines](CONTRIBUTING.md).
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
-
-Anda dapat menyalin semua konten di atas dan mem-paste-nya langsung ke file README di repositori GitHub Anda tanpa perubahan tambahan.
+Happy API testing with Apidex!
