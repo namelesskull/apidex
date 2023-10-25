@@ -1,68 +1,70 @@
-# apidex
+# Apidex
 
-## Build Setup
+![Apidex Screenshot](https://txyetwyalbsyterutgqv.supabase.co/storage/v1/object/public/screenshot/Screenshot%20from%202023-10-22%2017-53-49.png)
 
-```bash
-# install dependencies
-$ yarn install
 
-# serve with hot reload at localhost:3000
-$ yarn dev
+Apidex is an application for fetching data from APIs, serving as an alternative to tools like Postman. It allows you to make HTTP requests, inspect and manage headers, and send request bodies.
 
-# build for production and launch server
-$ yarn build
-$ yarn start
+## Installation
 
-# generate static project
-$ yarn generate
-```
+To run Apidex, you need to have Node.js and Yarn installed on your machine. If you haven't installed Yarn, you can do so by following the instructions on the [Yarn website](https://classic.yarnpkg.com/en/docs/install/).
 
-For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
+Once Yarn is installed, you can follow these steps to run Apidex:
 
-## Special Directories
+1. Clone this repository to your local machine:
 
-You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
+   ```
+   git clone https://github.com/freakh00da/apidex.git
+   ```
 
-### `assets`
+2. Navigate to the project directory:
 
-The assets directory contains your uncompiled assets such as Stylus or Sass files, images, or fonts.
+   ```
+   cd apidex
+   ```
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/assets).
+3. Install the required dependencies:
 
-### `components`
+   ```
+   yarn install
+   ```
 
-The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
+4. Start the development server:
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/components).
+   ```
+   yarn dev
+   ```
 
-### `layouts`
+5. Open your browser and go to [http://localhost:3000](http://localhost:3000).
 
-Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
+## Live Application
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
+You can access the live application at [Apidex - Live Demo](https://apidex.vercel.app).
 
-### `pages`
+## Features
 
-This directory contains your application views and routes. Nuxt will read all the `*.vue` files inside this directory and setup Vue Router automatically.
+- **HTTP Requests:** Apidex allows you to make GET, POST, PUT, DELETE, and other HTTP requests.
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/get-started/routing).
+- **Request Headers:** You can manage and inspect the request headers, including common headers like "Authorization," "Content-Type," and more.
 
-### `plugins`
+- **Request Body:** You can send request bodies in various formats, including key-value model and JSON.
 
-The plugins directory contains JavaScript plugins that you want to run before instantiating the root Vue.js Application. This is the place to add Vue plugins and to inject functions or constants. Every time you need to use `Vue.use()`, you should create a file in `plugins/` and add its path to plugins in `nuxt.config.js`.
+## Usage
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/plugins).
+1. Launch Apidex using the installation instructions mentioned above.
 
-### `static`
+2. Use the application to send API requests by specifying the request method, URL, headers, and body.
 
-This directory contains your static files. Each file inside this directory is mapped to `/`.
+3. View the response in a user-friendly format.
 
-Example: `/static/robots.txt` is mapped as `/robots.txt`.
+4. Inspect response headers and data to ensure your API requests are successful.
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/static).
+5. Enjoy a simple and convenient way to interact with APIs.
 
-### `store`
+## Feedback and Contributions
 
-This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
+If you have any feedback, feature requests, or would like to contribute to Apidex, feel free to [open an issue](https://github.com/freakh00da/apidex/issues) on GitHub.
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
+We welcome any contributions to make this tool even more useful for developers working with APIs.
+
+Happy API testing with Apidex!
